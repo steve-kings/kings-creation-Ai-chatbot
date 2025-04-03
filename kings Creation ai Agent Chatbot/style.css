@@ -1,0 +1,81 @@
+/* === style.css === */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #fdf9f9;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(42, 5, 173, 0.979), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?technology');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 50px 20px;
+  background: white;
+}
+
+.feature-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+}
+
+/* Chat Section */
+#chat-section {
+  background: #f9f9f9;
+  padding: 50px 0;
+}
+
+#chat-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background: #1506e4;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
